@@ -1,0 +1,33 @@
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fefefe;
+    color: #222;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .h1 {
+    font-size: 2.5rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  .button {
+    background: #2b7a78;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease;
+  
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
