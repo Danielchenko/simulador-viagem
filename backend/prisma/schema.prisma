@@ -8,11 +8,11 @@ datasource db {
 }
 
 model Viagem {
-  id        Int      @id @default(autoincrement())
-  origem    String
-  destino   String
-  dataIda   DateTime
-  dataVolta DateTime
-  pessoas   Int
-  createdAt DateTime @default(now())
+  id          Int      @id @default(autoincrement())
+  destino     String
+  dataInicio  DateTime
+  dataFim     DateTime
+  estilo      String
+  orcamento   Int
+  createdAt   DateTime @default(now())
 }
